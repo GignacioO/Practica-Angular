@@ -1,0 +1,9 @@
+<h2>Mochila</h2>
+<ul>
+    @for (objeto of objetos(); track objeto.nombre) {
+        <li>
+            <p><strong>{{ objeto.nombre}}</strong> {{ objeto.cantidad}}</p>
+
+        </li>
+    }
+</ul>
